@@ -51,21 +51,9 @@ class Dataset(Dataset):
             label = Image.open(label_path)
         label = np.array(label, dtype=np.uint8)
 
-        label_d2 = cv2.resize(label, (label.shape[0]//2, label.shape[1]//2))
-        label_d4 = cv2.resize(label, (label.shape[0]//4, label.shape[1]//4))
-        label_d8 = cv2.resize(label, (label.shape[0]//8, label.shape[1]//8))
-        label_d16 = cv2.resize(label, (label.shape[0]//16, label.shape[1]//16))
-
         img1 = self.image_transform(img1)  # [-1.0,1.0]
         img2 = self.image_transform(img2)
-
         label = self.gt_transformer(label)  # [0.0, 1.0]
-        label_d2 = self.gt_transformer(label_d2)
-        label_d4 = self.gt_transformer(label_d4)
-        label_d8 = self.gt_transformer(label_d8)
-        label_d16 = self.gt_transformer(label_d16)
-
-        # return img1, img2, label, label_d2, label_d4, label_d8, label_d16
         return img1, img2, label
 
     def __len__(self):
