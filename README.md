@@ -9,13 +9,12 @@ LEVIR Dataset: https://www.google.com/permissions/geoguidelines/
 ## Citation
 If you find this work interesting in your research, please cite:
 
-@article{pan2022temporal,
-  title={A Temporal-Reliable Method for Change Detection in High-Resolution Bi-Temporal Remote Sensing Images},
-  author={Pan, Fei and Wu, Zebin and Jia, Xiuping and Liu, Qian and Xu, Yang and Wei, Zhihui},
-  journal={Remote Sensing},
+@article{pan2021dcff,
+  title={DCFF-Net: A Densely Connected Feature Fusion Network for Change Detection in High-Resolution Remote Sensing Images},
+  author={Pan, Fei and Wu, Zebin and Liu, Qian and Xu, Yang and Wei, Zhihui},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
   volume={14},
-  number={13},
-  pages={3100},
-  year={2022},
-  publisher={MDPI}
+  pages={11974--11985},
+  year={2021},
+  publisher={IEEE}
 }
