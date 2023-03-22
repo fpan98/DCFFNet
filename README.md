@@ -1,5 +1,5 @@
 # DCFFNet
-This repo is the official implementation of "[DCFF-Net: A Densely Connected Feature Fusion Network for Change Detection in High-Resolution Remote Sensing Images](https://www.mdpi.com/2072-4292/14/13/3100)".
+This repo is the official implementation of "[DCFF-Net: A Densely Connected Feature Fusion Network for Change Detection in High-Resolution Remote Sensing Images](https://ieeexplore.ieee.org/abstract/document/9622163/)".
 ## Datasets
 Users can find the datasets used in this publication in the following locations:  
 CDD Dataset: https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9  
